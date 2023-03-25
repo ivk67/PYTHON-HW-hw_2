@@ -6,9 +6,9 @@
 # 2 2
 #     4
 
-def summ(a, b):
+def sum(a, b):
     if b == 0:
         return a
-    return summ(a + 1, b - 1)
-summa = summ(int(input('a = ')), int(input('b = ')))
+    return sum(a + 1, b - 1)
+summa = sum(int(input('a = ')), int(input('b = ')))
 print(f'    {summa}')
